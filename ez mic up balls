@@ -1,0 +1,180 @@
+-- Made by bed wars innit#6321
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local TextButton = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local bedwarsscript1 = Instance.new("TextButton")
+local bedwarsscript2 = Instance.new("TextButton")
+local antiloseguns = Instance.new("TextButton")
+local Raycodex = Instance.new("TextButton")
+local fly = Instance.new("TextButton")
+local freekorblox = Instance.new("TextButton")
+local TextButton_2 = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+main.Position = UDim2.new(0.182076812, 0, 0.212180749, 0)
+main.Size = UDim2.new(0, 432, 0, 191)
+main.Active = true
+main.Draggable = true
+
+TextButton.Parent = main
+TextButton.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextButton.Position = UDim2.new(0.875, 0, 0, 0)
+TextButton.Size = UDim2.new(0, 54, 0, 40)
+TextButton.Font = Enum.Font.GothamBold
+TextButton.Text = "X"
+TextButton.TextColor3 = Color3.fromRGB(255, 0, 4)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+TextLabel.Parent = main
+TextLabel.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+TextLabel.Size = UDim2.new(0, 378, 0, 40)
+TextLabel.Font = Enum.Font.GothamBold
+TextLabel.Text = "GulagV.2 "
+TextLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.TextSize = 14.000
+
+bedwarsscript1.Name = "bed wars script 1"
+bedwarsscript1.Parent = main
+bedwarsscript1.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+bedwarsscript1.Position = UDim2.new(0.0231481474, 0, 0.308900535, 0)
+bedwarsscript1.Size = UDim2.new(0, 106, 0, 38)
+bedwarsscript1.Font = Enum.Font.SourceSans
+bedwarsscript1.Text = "bed wars script 1"
+bedwarsscript1.TextColor3 = Color3.fromRGB(0, 0, 0)
+bedwarsscript1.TextSize = 14.000
+bedwarsscript1.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+bedwarsscript2.Name = "bed wars script 2"
+bedwarsscript2.Parent = main
+bedwarsscript2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+bedwarsscript2.Position = UDim2.new(0.0231481493, 0, 0.554973841, 0)
+bedwarsscript2.Size = UDim2.new(0, 106, 0, 38)
+bedwarsscript2.Font = Enum.Font.SourceSans
+bedwarsscript2.Text = "bed wars script 2"
+bedwarsscript2.TextColor3 = Color3.fromRGB(0, 0, 0)
+bedwarsscript2.TextSize = 14.000
+bedwarsscript2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/SlaveDash/Crokuranu/main/Bedwars%20UI%20Source%20Code'))()
+end)
+
+antiloseguns.Name = "anti lose guns"
+antiloseguns.Parent = main
+antiloseguns.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+antiloseguns.Position = UDim2.new(0.30092594, 0, 0.308900535, 0)
+antiloseguns.Size = UDim2.new(0, 106, 0, 38)
+antiloseguns.Font = Enum.Font.SourceSans
+antiloseguns.Text = "anti lose guns"
+antiloseguns.TextColor3 = Color3.fromRGB(0, 0, 0)
+antiloseguns.TextSize = 14.000
+antiloseguns.MouseButton1Down:connect(function()
+	pcall(function() if tostring(game.PlaceId) == "2788229376" then local corepackages = game:GetService"CorePackages" local localplayer = game:GetService"Players".LocalPlayer local run = game:GetService"RunService" run:BindToRenderStep("rrrrrrrrrrr",2000,function() pcall(function() if localplayer.Character.Humanoid.Health <= 30 then localplayer.Character.Humanoid:UnequipTools() localplayer.Character.Humanoid:Destroy() workspace.CurrentCamera.CameraSubject = localplayer.Character wait() local prt = Instance.new("Model", corepackages); Instance.new("Part", prt).Name="Torso"; Instance.new("Part", prt).Name="Head"; Instance.new("Humanoid", prt).Name="Humanoid"; localplayer.Character=prt end end) pcall(function() if localplayer.Character.Humanoid.FloorMaterial == "Plastic" then ReplicatedStorage:FireServer("Stomp") end end) end) loadstring(game:HttpGet("https://pastebin.com/raw/MQ3wc7Zq", true))() end end)
+end)
+
+Raycodex.Name = "Raycodex"
+Raycodex.Parent = main
+Raycodex.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+Raycodex.Position = UDim2.new(0.30092594, 0, 0.554973841, 0)
+Raycodex.Size = UDim2.new(0, 106, 0, 38)
+Raycodex.Font = Enum.Font.SourceSans
+Raycodex.Text = "Raycodex"
+Raycodex.TextColor3 = Color3.fromRGB(0, 0, 0)
+Raycodex.TextSize = 14.000
+Raycodex.MouseButton1Down:connect(function()
+	loadstring(game:GetObjects("rbxassetid://5812737894")[1].Source)()
+end)
+
+fly.Name = "fly"
+fly.Parent = main
+fly.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+fly.Position = UDim2.new(0.564814806, 0, 0.308900535, 0)
+fly.Size = UDim2.new(0, 106, 0, 38)
+fly.Font = Enum.Font.SourceSans
+fly.Text = "fly"
+fly.TextColor3 = Color3.fromRGB(0, 0, 0)
+fly.TextSize = 14.000
+fly.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/thickgriz/Da-hood-gui/main/V1", true))()
+end)
+
+freekorblox.Name = "free korblox"
+freekorblox.Parent = main
+freekorblox.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+freekorblox.Position = UDim2.new(0.564814806, 0, 0.554973841, 0)
+freekorblox.Size = UDim2.new(0, 106, 0, 38)
+freekorblox.Font = Enum.Font.SourceSans
+freekorblox.Text = "free korblox"
+freekorblox.TextColor3 = Color3.fromRGB(0, 0, 0)
+freekorblox.TextSize = 14.000
+freekorblox.MouseButton1Down:connect(function()
+	local ply = game.Players.LocalPlayer
+	local chr = ply.Character
+	chr.RightLowerLeg.MeshId = "902942093"
+	chr.RightLowerLeg.Transparency = "1"
+	chr.RightUpperLeg.MeshId = "http://www.roblox.com/asset/?id=902942096"
+	chr.RightUpperLeg.TextureID = "http://roblox.com/asset/?id=902843398"
+	chr.RightFoot.MeshId = "902942089"
+	chr.RightFoot.Transparency = "1"
+
+end)
+
+TextButton_2.Parent = main
+TextButton_2.BackgroundColor3 = Color3.fromRGB(25, 25, 25)
+TextButton_2.Position = UDim2.new(0.30092594, 0, 0.790575922, 0)
+TextButton_2.Size = UDim2.new(0, 157, 0, 32)
+TextButton_2.Font = Enum.Font.SourceSans
+TextButton_2.Text = "more scripts coming soon"
+TextButton_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextButton_2.TextSize = 14.000
+
+TextButton_3.Parent = ScreenGui
+TextButton_3.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+TextButton_3.Position = UDim2.new(0.813655734, 0, 0.673870325, 0)
+TextButton_3.Size = UDim2.new(0, 97, 0, 32)
+TextButton_3.Font = Enum.Font.GothamBold
+TextButton_3.Text = "OPEN"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextSize = 14.000
+
+-- Scripts:
+
+local function VFLOIEX_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+	
+	
+	
+	
+end
+coroutine.wrap(VFLOIEX_fake_script)()
+local function HHEBCR_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	local frame = script.Parent.Parent.main
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		end
+	end)
+	
+end
+coroutine.wrap(HHEBCR_fake_script)()
